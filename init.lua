@@ -18,6 +18,7 @@ require('lsp')
 require('ts')
 require('snipets')
 require('bar')
+require('buffer')
 
 vim.cmd "set number"
 vim.cmd.colorscheme "catppuccin-mocha"
