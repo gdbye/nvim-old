@@ -73,6 +73,15 @@ require("lazy").setup({
 			-- refer to the configuration section below
 		}
 	},
-
+	{
+		'goolord/alpha-nvim',
+		dependencies = {
+			'nvim-tree/nvim-web-devicons',
+			'nvim-lua/plenary.nvim'
+		},
+		config = function ()
+			require'alpha'.setup(require'alpha.themes.theta'.config)
+		end
+	},
 
 })
