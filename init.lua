@@ -21,7 +21,6 @@ require('snipets')
 require('bar')
 require('buffer')
 require('tree')
-require('alpha')
 
 vim.cmd "set number"
 vim.cmd.colorscheme "catppuccin-mocha"
