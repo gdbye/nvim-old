@@ -22,5 +22,6 @@ require('bar')
 require('buffer')
 require('tree')
 
+
 vim.cmd "set number"
 vim.cmd.colorscheme "catppuccin-mocha"
