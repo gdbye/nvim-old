@@ -21,6 +21,7 @@ require('snipets')
 require('bar')
 require('buffer')
 require('tree')
+require('mini')
 
 
 vim.cmd "set number"

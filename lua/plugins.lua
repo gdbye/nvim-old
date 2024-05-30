@@ -80,6 +80,7 @@ require("lazy").setup({
 			require("startup").setup({theme = "dashboard"})
 		end
 	},
-	{ "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} }
+	{ "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
+	{ 'echasnovski/mini.pairs', version = '*' },
 
 })
