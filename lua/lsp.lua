@@ -21,5 +21,8 @@ local DEFAULT_SETTINGS = {
     ---@type table<string, fun(server_name: string)>?
     handlers = nil,
 }
-
+require'lspconfig'.jdtls.setup{}
 require'lspconfig'.lua_ls.setup{}
+require'lspconfig'.pyright.setup{}
+require'lspconfig'.rust_analyzer.setup{}
+
